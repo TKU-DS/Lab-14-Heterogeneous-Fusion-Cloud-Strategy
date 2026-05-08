@@ -1,15 +1,16 @@
-# Python
+# Python bytecode
 __pycache__/
 *.py[cod]
 
-# Ultralytics & Models
+# Data Cache (Avoid committing the local fallback files)
+*.jsonl
+*.log
+
+# Models & Media (Inherited from previous weeks)
 *.pt
-runs/
-
-# Video & Image assets
 *.mp4
-*.jpg
-*.png
+*.tflite
 
-# OS
+# OS & IDE
 .DS_Store
+.vscode/
